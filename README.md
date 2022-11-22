@@ -11,12 +11,12 @@ Você tem 7 (sete) dias até a entrega final. Use todo este tempo para mostrar o
 ## Descrição do plugin
 
 Você irá construir um plugin WordPress que permitirá aos visitantes classificarem publicações, chamado “Like”.  
-Você precisa criar front-end e back-end com baseado nas descrições e às funcionalidades propostas e que seja responsivo e performático.
+Você precisa criar front-end e back-end baseado nas descrições e às funcionalidades propostas e que seja responsivo e performático.
 
 O plugin deve conter as seguintes funções:
 
--  **Like/Dislike**: adicionar ao final do `content` dos `posts` dois botões: Like e Dislike. O botão de Like deve salvar uma adição a contagem de "popularidade" daquele post. O botão Dislike, deve subtrair. Um usuário (logado ou não) só pode votar em uma das 2 opções em cada post. Esta ação deve ser feita via Ajax.
--  **Post Meta**: a contagem de popularidade deve ser salva num post meta, sendo apenas um número.
+-  **Like/Dislike**: adicionar ao final do `content` dos `posts` dois botões: Like e Dislike. O botão de Like deve salvar uma adição a contagem de "popularidade" daquele post. O botão Dislike, deve subtrair. Estas ações devem ser feita via Ajax. Um visitante só pode votar em uma das 2 opções em cada post (salvar interações em cookie ou localStorage).
+-  **Post Meta**: a contagem de popularidade deve ser salva num post meta, podendo ser apenas um número.
 -  **Shortcode**: criar um shortcode `[top-liked]` que liste todos os posts que receberam votação, ordenados por popularidade.
 
 ### Diferenciais
