@@ -15,7 +15,8 @@ Você precisa criar front-end e back-end baseado nas descrições e às funciona
 
 O plugin deve conter as seguintes funções:
 
--  **Like/Dislike**: adicionar ao final do `content` dos `posts` dois botões: Like e Dislike. O botão de Like deve salvar uma adição a contagem de "popularidade" daquele post. O botão Dislike, deve subtrair. Estas ações devem ser feita via Ajax. Um visitante só pode votar em uma das 2 opções em cada post (salvar interações em cookie ou localStorage).
+-  **Like/Dislike**: adicionar ao final do `content` dos `posts` dois botões: Like e Dislike. O botão de Like deve salvar uma adição a contagem de "popularidade" daquele post. O botão Dislike, deve subtrair. Estas ações devem ser feita via Ajax.
+-  **Validação de voto**: Um visitante só pode manter **um voto** em cada post. Isto é, suas opções numa publicação seriam: dar Like, Dislike **ou** remover seu voto. Para isto, o uso de cookie ou localStorage é recomendado.
 -  **Post Meta**: a contagem de popularidade deve ser salva num post meta, podendo ser apenas um número.
 -  **Shortcode**: criar um shortcode `[top-liked]` que liste todos os posts que receberam votação, ordenados por popularidade.
 
